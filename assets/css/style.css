@@ -36,7 +36,16 @@ iframe {
   border-radius: 50%;
   transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out;
 }
-
+.deployment {
+  font-size: 12rem;
+}
+.deployment-p {
+  font-size: 1.8rem;
+}
+.deployment-p {
+  font-weight: bolder;
+  letter-spacing: 12px;
+}
 .skill-graph i::after {
   content: attr(data-value);
   font-family: "Poppins", sans-serif;

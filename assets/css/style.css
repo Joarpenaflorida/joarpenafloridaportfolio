@@ -124,7 +124,9 @@ h1 {
   object-fit: cover;
   clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0% 60%, 0 10%);
 }
-
+textarea {
+  resize: none;
+}
 .redirect {
   border: 2px solid white;
   padding: 1rem;
